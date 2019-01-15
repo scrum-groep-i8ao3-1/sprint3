@@ -1,0 +1,7 @@
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\bin\Debug\_6._4.exe.config
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\bin\Debug\_6._4.exe
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\bin\Debug\_6._4.pdb
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\obj\Debug\6.4.csprojAssemblyReference.cache
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\obj\Debug\6.4.csproj.CoreCompileInputs.cache
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\obj\Debug\_6._4.exe
+E:\scrum\sprint3\sprint3\s1-be-m06-functies\6.4\obj\Debug\_6._4.pdb
