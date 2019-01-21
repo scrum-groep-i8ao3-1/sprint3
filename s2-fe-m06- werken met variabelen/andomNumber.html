@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="goed"></div>;
+<div id="fout"></div>
+<script>
+    var vraag = "kies een random nummer tussen de 1 en de 10?";
+    var randomnumber = prompt(vraag);
+    var vraagantwoord = Math.floor((Math.random() * 10) + 1);
+    if(vraagantwoord === randomnumber) {
+        document.getElementById("goed").innerHTML = '<h2> Prima, ga zo door! </h2>';
+    }
+    else
+    {
+        document.getElementById("fout").innerHTML = ' Jammer, het nummer was ' +vraagantwoord+ '!';
+    }
+</script>
+</body>
+</html>
