@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let array = [];
+    array.push(Math.floor((Math.random() * 6) + 1));
+    array.push(Math.floor((Math.random() * 6) + 1));
+    array.push(Math.floor((Math.random() * 6) + 1));
+    array.push(Math.floor((Math.random() * 6) + 1));
+    array.push(Math.floor((Math.random() * 6) + 1));
+    document.write( "dobble 1 = " , array[0] , "<br>dobble 2 = " , array[1] , "<br>dobble 3 = ",  array[2] , "<br>dobble 4 = ",  array[3]
+        , "<br>dobble 5 = ",  array[4], "<br> het totaal = ", (array[0]+array[1]+array[2]+array[3]+array[4]));
+</script>
 </body>
 </html>
