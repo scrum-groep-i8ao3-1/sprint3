@@ -1,0 +1,3 @@
+select * from tblEvent where CategoryID != 14 and EventDetails  like '%train%'
+select * from tblEvent where (CountryID = 13) and (EventName != 'space') 
+select * from tblEvent where CategoryID = 5 or CategoryID = 6 and     [EventDetails] NOT LIKE '%Death%' AND [EventDetails] NOT LIKE '%WAR%' 
