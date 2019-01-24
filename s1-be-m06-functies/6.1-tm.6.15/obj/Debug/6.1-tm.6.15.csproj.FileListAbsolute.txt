@@ -1,0 +1,7 @@
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\bin\Debug\6.1-tm.6.15.exe.config
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\bin\Debug\6.1-tm.6.15.exe
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\bin\Debug\6.1-tm.6.15.pdb
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\obj\Debug\6.1-tm.6.15.csprojAssemblyReference.cache
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\obj\Debug\6.1-tm.6.15.csproj.CoreCompileInputs.cache
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\obj\Debug\6.1-tm.6.15.exe
+C:\Users\User\scrum\sprint3\s1-be-m06-functies\6.1-tm.6.15\obj\Debug\6.1-tm.6.15.pdb

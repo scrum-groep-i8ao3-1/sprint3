@@ -1,0 +1,4 @@
+select top 2 Eventname,EventDate from tblEvent
+order by EventDate asc
+select top 2 Eventname,EventDate from tblEvent
+order by EventDate desc

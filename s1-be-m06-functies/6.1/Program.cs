@@ -7,10 +7,16 @@ using System.Threading.Tasks;
 namespace _6._1
     //timur
 {
-    class Program
+    class luizenmoeder
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            LuizenMoeder();
+        }
+        public static void LuizenMoeder()
+        {
+            Console.WriteLine("Hallo allemaal, wal leuk dat je er bent.");
+            Console.ReadLine();
         }
     }
 }

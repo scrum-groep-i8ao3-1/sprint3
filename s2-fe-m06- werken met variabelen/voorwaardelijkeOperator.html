@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>voorwaardelijkeOperator.html</title>
+</head>
+<body>
+<div id="goed"></div>;
+<div id="fout"></div>
+
+<script>
+    var vraag = "hoeveel is 20 + 60?";
+    var antwoord = prompt(vraag);
+    var vraagantwoord = "80";
+    if(vraagantwoord === antwoord) {
+        document.getElementById("goed").innerHTML = '<h2> Prima, ga zo door! </h2>';
+    }
+    else
+        {
+            document.getElementById("fout").innerHTML = '<h2> Jammer, volgende keer beter !</h2>';
+        }
+</script>
+</body>
+</html>

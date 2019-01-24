@@ -11,6 +11,7 @@ namespace _6._4
     //nakijk test 1 door timur : fout null pointer
     //nakijk test 2 door tom : fout komma getallen.
     //nakijk test 3 door tom : goed comma getalen werken
+    //nakijk test 4 door jairo : werk niet met lange comma getalen (wiskundige notatie 1,37777777777778E+26)
     /*
      *
      Opdracht 6.4 (*) 
@@ -50,7 +51,7 @@ De derde parameter is één enkel teken (char) dat aangeeft welke berekening uit
             else
             {
                 //slaat de berekening op als input berekening
-                //voorbeeld 1 * 1 
+                //voorbeeld 1 * 1 +
                 //args      0 1 2
                 //checkt de lengte van de string (src variable)
                 if (src.Length <= 2 )
