@@ -1,0 +1,7 @@
+E:\sprint3\s1-be-m06-functies\6.14\obj\Debug\6.14.csprojAssemblyReference.cache
+E:\sprint3\s1-be-m06-functies\6.14\obj\Debug\6.14.csproj.CoreCompileInputs.cache
+E:\sprint3\s1-be-m06-functies\6.14\bin\Debug\6.14.exe.config
+E:\sprint3\s1-be-m06-functies\6.14\bin\Debug\6.14.exe
+E:\sprint3\s1-be-m06-functies\6.14\bin\Debug\6.14.pdb
+E:\sprint3\s1-be-m06-functies\6.14\obj\Debug\6.14.exe
+E:\sprint3\s1-be-m06-functies\6.14\obj\Debug\6.14.pdb
