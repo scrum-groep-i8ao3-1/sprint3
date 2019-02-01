@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<button onclick="getday()">getday</button>
+<button onclick="newday()">newday</button>
+<script>
+    let dagen = ["maandag", "dinsdag", "woensdag", "donderdag","vrijdag","zaterdag","zondag"];
+function getday() {
+    let input = prompt("wat voor dag moet u hebben");
+    let locatie = dagen.indexOf(input);
+    if(locatie === -1){
+        alert("geen geldige locatie")
+    }else{
+        alert(input +"staat op locatie " +locatie + " van de array.");
+    }
+}
+function newday() {
+    let input = prompt("wat voor dag moet ik toevoegen");
+    dagen.push(input);
+    let locatie = dagen.indexOf(input);
+    alert(input +" is gepusht op locatie " + locatie);
+}
+</script>
 </body>
 </html>

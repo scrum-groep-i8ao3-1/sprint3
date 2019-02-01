@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>lezen.html</title>
 </head>
+<div id="0"></div>
+<div id="1"></div>
+<div id="2"></div>
+<div id="3"></div>
+<div id="4"></div>
+<div id="5"></div>
 <body>
-$END$
+<script>
+    let lezen = [];
+    lezen.push("aap");
+    lezen.push("noot");
+    lezen.push("mies");
+    lezen.push("wim");
+    lezen.push("zus");
+    lezen.push("jet");
+    for(let i=0; i<lezen.length; ++i) {
+        document.getElementById(i.toString()).innerHTML = lezen[i];
+    }
+</script>
 </body>
 </html>

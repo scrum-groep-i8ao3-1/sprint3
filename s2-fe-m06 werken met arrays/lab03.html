@@ -2,9 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<div id="shower1"></div>
+<div id="shower2"></div>
+<div id="shower3"></div>
+<div id="shower4"></div>
+<div id="shower5"></div>
+<div id="shower6"></div>
+<div id="shower7"></div>
+<div id="shower9"></div>
+<script>
+    let testarray = ["een","twee","3","vier"];
+    testarray.push(5);
+    document.getElementById("shower1").innerHTML = testarray.toString();
+    let tiepe = typeof  testarray[4];
+    document.getElementById("shower2").innerHTML = tiepe.toString();
+    testarray.splice(4,1); //haalt 5 de element weg
+    document.getElementById("shower3").innerHTML = testarray.toString();
+    testarray.unshift('nul');
+    document.getElementById("shower4").innerHTML = testarray.toString();
+    let tiepe2 = typeof  testarray[0];
+    document.getElementById("shower5").innerHTML = tiepe2.toString();
+    testarray.splice(0,1);
+    testarray.splice(1,1);
+    document.getElementById("shower6").innerHTML = testarray.toString();
+    testarray.splice(2,1);
+    document.getElementById("shower7").innerHTML = testarray.toString();
+;
+
+
+
+
+</script>
 </body>
 </html>
