@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<button id="button1" onclick="gooi()">gooi 5 dobbel stenenen</button>
+<div id="0"></div>
+<div id="1"></div>
+<div id="2"></div>
+<div id="3"></div>
+<div id="4"></div>
+<div id="5"></div>
+<div id="totaal"></div>
+<script>
+    let lijst = [];
+    let totaal = 0*1;
+    function gooi(){
+        totaal = 0;
+        for(let i = 0;i < 5;i++) {
+            let random = Math.floor(Math.random() * 7);
+            lijst[i] = random;
+            document.getElementById(i).innerText = lijst[i];
+            totaal += lijst[1];
+        }
+        document.getElementById("totaal").innerText = "het totaal is : " + totaal.toString();
+        totaal = 0;
+    }
+</script>
 </body>
 </html>
