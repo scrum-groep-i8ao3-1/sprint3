@@ -5,72 +5,44 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _7._4
-{
+{ 
+    //Timur 
+    //getest door Daniel en Jairo
+    //Deze code is een random password genarator die maximaal 60 en minimaal 10 karakters mogen bevatten 
+    //de lengte die tussen de 10 en 60 zit moet de user zelf invoeren 
     class Program
     {
-        static List<Char> chars = new List<char>();
-
         static void Main(string[] args)
         {
-            addChars(ref chars);
-            while(true)
-            {
-                Console.WriteLine("geef de lengte van het password minimaal 10 en maximaal 60");
-                int lenght = Convert.ToInt32(Console.ReadLine());
+            //heir wordt de user input geconvert naar een int
+            Console.WriteLine("hoe lang wilt u uw wachtwoord (Max 60, Min 10 tekens)");
+            int aantal = Convert.ToInt32(Console.ReadLine());
 
-                if (lenght < 60 && lenght > 10)
+            //hier wordt de array met tekens opgesteld en er wordt een random aan gemaakt
+            char[] array = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#@$%&*?".ToCharArray();
+            Random r = new Random();
+            string randomstr = " ";
+
+            //voor als de user geen geldige input in heeft gevuld
+            if (aantal < 10 || aantal > 60)
+            {
+                Console.WriteLine("Dit is geen geldige keuze probeer het opnieuw");
+                Console.ReadLine();
+            }
+
+            //voor als de user een geldige input in heeft gevuld 
+            //gaat het hier random tekens uit array halen tot i gelijk is aan de input van de user 
+            else
+            {
+                for (int i = 0; i < aantal; i++)
                 {
-                    Console.WriteLine(randompassword(lenght));
-                }
-
-                if (lenght > 60)
-                {
-                    Console.WriteLine(randompassword(60));
-                    Console.WriteLine("je password is nu 60 tekens lang doe het de volgende keer wat korter");
-                }
-
-                if (lenght < 10)
-                {
-                    Console.WriteLine(randompassword(10));
-                    Console.WriteLine("je password is nu 10 tekens lang doe het de volgende keer wat langer");
+                    randomstr += array[r.Next(0, 70)].ToString();
                 }
             }
-        }
-        static string randompassword(int lenght)
-        {
-            StringBuilder sb = new StringBuilder();
-            Random rnd = new Random();
-            int j = 0;
+            Console.WriteLine(randomstr);
+            Console.ReadLine();
 
-            while (j < lenght)
-            {
-                sb.Append(chars[rnd.Next(0, chars.Count)]);
-                j++;
-            }
 
-            return sb.ToString();
-        }
-        static void addChars(ref List<char> chars)
-        {
-            for (char i = 'a'; i <= 'z'; i++)
-            {
-                chars.Add(i);
-            }
-            
-            for (char i = 'A'; i <= 'Z'; i++)
-            {
-                chars.Add(i);
-            }
-
-            for (char i = '!'; i <= '?'; i++)
-            {
-                chars.Add(i);
-            }
-
-            for (char i = '0'; i <= '9'; i++)
-            {
-                chars.Add(i);
-            }
         }
         
     }
