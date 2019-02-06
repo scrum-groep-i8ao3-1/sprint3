@@ -7,7 +7,7 @@
     <ProjectGuid>{77EC7E21-53EB-4E0C-991F-CB66CF32F8D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>opdracht_6._13</RootNamespace>
-    <AssemblyName>opdracht_6._13</AssemblyName>
+    <AssemblyName>opdracht 6.13</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
