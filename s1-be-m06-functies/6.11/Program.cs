@@ -34,7 +34,8 @@ dit zijn de berekeningen die plaats vinden:
         static void Berekening (double getaleen, double getaltwee, out string answer)
         {
                 //voert alle berekeningen uit
-                Console.WriteLine("het antwoord is " + getaleen * getaltwee);
+             
+            Console.WriteLine("het antwoord is " + getaleen * getaltwee);
             Console.WriteLine("het antwoord is " + getaleen / getaltwee);
             Console.WriteLine("het antwoord is " + getaleen + getaltwee);
             Console.WriteLine("het antwoord is " + (getaleen - getaltwee));
@@ -48,7 +49,7 @@ dit zijn de berekeningen die plaats vinden:
             //vraagt de berekening
             Console.WriteLine("voer 2 getalen in en de wat je met de getallen wil doen kies uit (/,*,+,-) ");
             Console.WriteLine("voorbeeld : 13 + 16");
-
+            string src = Convert.ToString(Console.ReadLine());
             // zend data naar de methode
             obj.Berekening(Getaleen, Getaltwee, out teken);
 
