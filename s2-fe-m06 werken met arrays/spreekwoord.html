@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let spreekwoord = ["eigen haard is goud waard","haastige spoed is zelden goed","beter laat dan nooit ","wie het laatst lacht, lacht her best","de morgenstond heeft goud in de mond","zoals het kolkje thuis tikt,tikt het nergens","oost west, thuis best"];
+    let random = Math.floor(Math.random() * spreekwoord.length);
+    let output = spreekwoord[random];
+    let dag = myDate();
+    alert("het is vandaag " + dag +"\n de tip van de dag is : " + output);
+    function myDate() {
+        var A = new Date();
+        var weekdays = new Array(7);
+        weekdays[0] = "zondag";
+        weekdays[1] = "maandag";
+        weekdays[2] = "dinsdag";
+        weekdays[3] = "woensdag";
+        weekdays[4] = "donderdag";
+        weekdays[5] = "vrijdag";
+        weekdays[6] = "zaterdag";
+        var dag = weekdays[A.getDay()];
+        return dag;
+    }
+</script>
+
 </body>
 </html>
