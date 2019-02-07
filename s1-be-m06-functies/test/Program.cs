@@ -28,13 +28,13 @@ namespace test
         }
         public void Main(string[] args)
         {
-            double Getaleen = 1;
-            double Getaltwee = 1;
+            double Getaleen;
+            double Getaltwee;
             string p;
             double q;
             Program obj = new Program();
             obj.Math1(Getaleen, Getaltwee, out p);
-
+   
 
             if (p == "*")
             {
