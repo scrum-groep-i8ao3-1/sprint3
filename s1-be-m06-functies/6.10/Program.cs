@@ -10,10 +10,10 @@ namespace ConsoleApp18
     {
         static void Main(string[] args)
         {
-            Console.Write("Voer een willekeurig getal in Getal1: ");
+            Console.Write("Voer getal1 in: ");
             int getal1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Voer nog een willekeurig getal in Getal2: ");
+            Console.Write("Voer getal2 in: ");
             int getal2 = Convert.ToInt32(Console.ReadLine());
 
             Swap(ref getal1, ref getal2);
@@ -30,9 +30,9 @@ namespace ConsoleApp18
         private static void Swap(ref int getal1, ref int getal2)
         {
             //Een geheugen plek voor getal2
-            int memo = getal1;
+            int savenumber = getal1;
             getal1 = getal2;
-            getal2 = memo;
+            getal2 = savenumber;
         }
     }
 }
