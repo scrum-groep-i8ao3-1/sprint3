@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77EC7E21-53EB-4E0C-991F-CB66CF32F8D3}</ProjectGuid>
+    <ProjectGuid>{4DF6361E-C3FE-45D6-8DDF-11964720ADDD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>opdracht_6._13</RootNamespace>
-    <AssemblyName>opdracht 6.13</AssemblyName>
+    <RootNamespace>_7._7</RootNamespace>
+    <AssemblyName>7.7</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

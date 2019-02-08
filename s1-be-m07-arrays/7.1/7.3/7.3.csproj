@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77EC7E21-53EB-4E0C-991F-CB66CF32F8D3}</ProjectGuid>
+    <ProjectGuid>{8E5A466F-41CA-43AB-90BB-A78E22AFB994}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>opdracht_6._13</RootNamespace>
-    <AssemblyName>opdracht 6.13</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>_7._3</RootNamespace>
+    <AssemblyName>7.3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
