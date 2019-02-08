@@ -14,7 +14,7 @@ namespace _7._4
     {
         static void Main(string[] args)
         {
-            //heir wordt de user input geconvert naar een int
+            //hier wordt de user input geconvert naar een int
             Console.WriteLine("hoe lang wilt u uw wachtwoord (Max 60, Min 10 tekens)");
             int aantal = Convert.ToInt32(Console.ReadLine());
 
