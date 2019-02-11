@@ -13,7 +13,6 @@ namespace test
             Console.WriteLine("wat is je som");
             Console.WriteLine("doe het zo: 34 + 20 ");
             String src = Console.ReadLine();
-
             //splits de string in meerdere delen
             string[] splits = src.Split(' ');
             // pakt arg 1
@@ -35,18 +34,22 @@ namespace test
             double q;
             Program obj = new Program();
             obj.Math1(Getaleen, Getaltwee, out p);
+   
+
             if (p == "*")
             {
                 q = Getaleen * Getaltwee;
                 Console.WriteLine(q);
                 Console.ReadLine();
             }
+
             else if (p == "-")
             {
                 q = Getaleen - Getaltwee;
                 Console.WriteLine(q);
                 Console.ReadLine();
             }
+
             else if (p == "+")
             {
                 q = Getaleen + Getaltwee;
@@ -54,12 +57,14 @@ namespace test
                 Console.ReadLine();
 
             }
+
             else if (p == "/")
             {
                 q = Getaleen / Getaltwee;
                 Console.WriteLine(q);
                 Console.ReadLine();
             }
+
             else if (p != "-" || p != "+" ||p != "/"||p != "*")
             {
                 Console.WriteLine("probeer het opnieuw met een van de keuzes die er zijn gegeven");
