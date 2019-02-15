@@ -12,24 +12,37 @@ namespace _7._3
         {
             Random random = new Random();
             int[] array = new int[25];
+            int[] array2 = new int[25];
+            int[] array3 = new int[25];
+
+            //vullen array
             for (int i = 0; i < array.Length; i++)
             {
                 int randomNumber = random.Next(0, 10001);
                 array[i] = randomNumber;
-                if (IsOdd(i))
+            }
+            // uitlezen array
+            //forloop
+            // controleer  even
+            Console.WriteLine("Even getallen");
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 2 == 0)
                 {
                     Console.WriteLine(array[i]);
                 }
             }
-                Console.ReadLine();
-        }
-        public static bool IsEven(int value)
-        {
-            return value % 2 == 0;
-        }
-        public static bool IsOdd(int value)
-        {
-            return value % 2 != 0;
+            //forloop
+            // controleer oneven.
+            Console.WriteLine("Oneven getallen");
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 2 != 0)
+                {
+                    Console.WriteLine(array[i]);
+                }
+            }
+            Console.ReadLine();
         }
     }
 }  
