@@ -14,7 +14,7 @@ namespace _6._5
             Console.WriteLine("Geef een aantal om lege regels te schrijven");
             int input = Convert.ToInt32(Console.ReadLine());
 
-            //applicatie maakt een variable teller aan die het aantal regels telt
+            //applicatie maakt een variable teller aan die het aantal regels telt voor de duidelijkheid
             int teller = 0;
             //de input gaat een loop in, en het aantal gewenste regels word geschreven
             for (int i = 0; i < input; i++)
