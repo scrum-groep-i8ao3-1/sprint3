@@ -20,7 +20,7 @@ namespace _6._5
             for (int i = 0; i < input; i++)
             {
                 //teller wordt telkens met 1 verhoogd wanneer die door de loop wordt geactiveerd
-                teller+= 1;
+                teller += 1;
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.WriteLine(teller + "           ");
             }
