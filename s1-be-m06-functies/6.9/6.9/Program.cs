@@ -75,7 +75,7 @@ public class Example
     {
         //vraagt de tijd op.
         DateTime nu = DateTime.Now;
-        int minuten = nu.Minute; //tijd in munten
+        int minuten = nu.Minute; //tijd in minuten
         int seconden = nu.Second; //tijd in seconden
         int uren = nu.Hour; //tijd in uren
         int[] output = new int[3] { uren, minuten, seconden };
