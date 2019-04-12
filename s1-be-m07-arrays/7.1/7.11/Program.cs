@@ -10,9 +10,6 @@ namespace _7._11
     {
         //tom
         //af op 30-1-2019
-        //werkt
-        //werkt
-        //werk
         //nagekeken door danny
         static void Main(string[] args)
         {
