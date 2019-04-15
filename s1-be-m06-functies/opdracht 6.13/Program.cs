@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//jairo
 namespace ConsoleApp18
 {
     class Program
@@ -14,6 +15,7 @@ namespace ConsoleApp18
             int geluid = Convert.ToInt32(Console.ReadLine());
             if (geluid == 1)
             {
+                //jairo speelt een geluid af
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer("C:/Users/mylok/OneDrive/Documents/wolf.wav");
                 player.Play();
                 Console.WriteLine("Wolf");
@@ -90,6 +92,7 @@ namespace ConsoleApp18
         }
         public static void Geluid()
         {
+            //speelt een random geluid af uit de lijst
             Random rnd = new Random();
             int number = rnd.Next(1, 9);
             int geluid = number;
