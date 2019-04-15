@@ -37,11 +37,11 @@ etc.
             //variables maken
             String[,] lijst = new string[6, 5];
             //danny
-            lijst[0, 0] = "0306783";
-            lijst[0, 1] = "danny";
-            lijst[0, 2] = "lanssink";
-            lijst[0, 3] = "24-2-2002";
-            lijst[0, 4] = "enschede";
+            lijst[0, 0] = "0306783"; //studenten nummer
+            lijst[0, 1] = "danny"; //naam
+            lijst[0, 2] = "lanssink"; //achternaam
+            lijst[0, 3] = "24-2-2002"; //geboorte datum
+            lijst[0, 4] = "enschede"; //geboorteplaats
             //danny
             //tom
             lijst[1, 0] = "0311319";
