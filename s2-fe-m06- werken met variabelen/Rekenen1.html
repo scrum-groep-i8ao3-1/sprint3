@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var getal1 = parseInt(prompt("wat is u eerste getal?"));
+    var getal2 = parseInt(prompt("wat is u tweede getal?"));
+    var calculator = prompt("wat is u calculator(plus, min, gedeeld, keer)");
+    if(calculator === "min"){
+        var output = parseInt(getal1 - getal2);
+        alert("het antwoord is " + output);
+    }else if(calculator === "gedeeld"){
+        var output = parseInt(getal1 / getal2);
+        alert("het antwoord is " + output);
+    }else if(calculator === "keer"){
+        var output = parseInt(getal1 * getal2);
+        alert("het antwoord is " + output);
+    }else if(calculator === "plus"){
+        var output = parseInt(getal1 + getal2);
+        alert("het antwoord is " + output);
+    }else{
+        alert("NaN");
+    }
+</script>
+</body>
+</html>
